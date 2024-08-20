@@ -1,8 +1,8 @@
 #!/bin/bash
 
-MODEL_PATH="$HOME/projects/paligemma-weights/paligemma-3b-pt-224"
-PROMPT="this building is "
-IMAGE_FILE_PATH="test_images/pic1.jpeg"
+MODEL_PATH="$HOME/files/projects/paligemma-weights/paligemma-3b-pt-224"
+PROMPT="where is this template? "
+IMAGE_FILE_PATH="test_images/pic1.jpg"
 MAX_TOKENS_TO_GENERATE=100
 TEMPERATURE=0.8
 TOP_P=0.9
